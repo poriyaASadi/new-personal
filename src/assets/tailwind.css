@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Caveat';
+        src: url('./fonts/caveat/Caveat-Medium.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family:"Bebas";
+        src: url(./fonts/bebses/BebasNeue-Regular.ttf) format('truetype');
+      }
+      @font-face {
+        font-family:"Exo" ;
+        src: url(./fonts/Exo/Exo2-Medium.ttf) format('truetype');
+      }
+}
