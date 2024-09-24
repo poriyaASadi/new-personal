@@ -19,7 +19,7 @@
         </div>
       </div>
      <MenuBarMobile></MenuBarMobile>
-    <router-view></router-view>
+     <homePage></homePage>
     <MenuBar></MenuBar>
    </div>
 </div>
@@ -29,12 +29,14 @@
 import MenuBar from './components/MenuBar.vue'
 import MenuBarMobile from './components/MenuBarMobile.vue'
 import LoadingPage from './components/LoadingPage.vue';
+import HomePage from './components/HomePage.vue'
 export default {
   name: 'App',
   components : {
     MenuBar,
     MenuBarMobile,
-    LoadingPage
+    LoadingPage,
+    HomePage
   },
   mounted () {
        this.chekmode()
