@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.94 366.77">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #ffffffc3;
+              stroke-miterlimit: 10;
+              stroke-width: 4px;
+            }
+      
+            .cls-2 {
+              fill: #ffffff86;
+              stroke-width: 0px;
+            }
+          </style>
+        </defs>
+        <path class="cls-2" d="M170.36,362.33l-22.39-22.39c-5.93-5.93-5.93-15.53,0-21.45l22.39-22.39c3.17-3.17,7.42-4.65,11.58-4.41v75.05c-4.16.24-8.4-1.23-11.58-4.41Z"></path>
+        <path class="cls-2" d="M170.39,265.01l-22.39-22.39c-5.93-5.93-5.93-15.53,0-21.45l22.39-22.39c3.17-3.17,7.4-4.64,11.55-4.42v75.08c-4.16.21-8.38-1.25-11.55-4.43Z"></path>
+        <rect class="cls-2" x="101.44" y="249.57" width="62" height="62" rx="15.17" ry="15.17" transform="translate(424.48 385.31) rotate(135)"></rect>
+        <path class="cls-2" d="M170.1,167.99l-22.39-22.39c-5.93-5.93-5.93-15.53,0-21.45l22.39-22.39c3.24-3.24,7.59-4.7,11.83-4.39v75.02c-4.24.31-8.59-1.15-11.84-4.4Z"></path>
+        <rect class="cls-2" x="103.88" y="149.83" width="62" height="62" rx="15.17" ry="15.17" transform="translate(358.12 213.31) rotate(135)"></rect>
+        <rect class="cls-2" x="55.21" y="198.5" width="62" height="62" rx="15.17" ry="15.17" transform="translate(309.45 330.83) rotate(135)"></rect>
+        <path class="cls-2" d="M170.13,70.67l-22.39-22.39c-5.93-5.93-5.93-15.53,0-21.45l22.39-22.39c3.24-3.24,7.58-4.71,11.81-4.4v75.02c-4.23.31-8.57-1.16-11.81-4.4Z"></path>
+        <rect class="cls-2" x="101.18" y="55.23" width="62" height="62" rx="15.17" ry="15.17" transform="translate(286.62 53.73) rotate(135)"></rect>
+        <rect class="cls-2" x="55.23" y="101.18" width="62" height="62" rx="15.17" ry="15.17" transform="translate(240.67 164.66) rotate(135)"></rect>
+        <rect class="cls-2" x="6.56" y="149.85" width="62" height="62" rx="15.17" ry="15.17" transform="translate(192 282.18) rotate(135)"></rect>
+        <polyline class="cls-1" points="181.94 .04 181.94 34.29 181.94 102.3 181.94 122.52 181.94 190.54 181.94 210.45 181.94 278.52 181.94 298.7 181.94 366.75"></polyline>
+      </svg>

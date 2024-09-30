@@ -20,4 +20,9 @@
         font-family:"Exo" ;
         src: url(./fonts/Exo/Exo2-Medium.ttf) format('truetype');
       }
+      @font-face {
+        font-family:"Roboto" ;
+        src: url(./fonts/Roboto/RobotoCondensed-SemiBold.ttf) format('truetype');
+      }
+
 }

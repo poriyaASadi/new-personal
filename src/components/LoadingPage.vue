@@ -1,5 +1,5 @@
 <template>
-    <div id="loading" class="w-full h-full absolute top-0 left-0 p-3 z-50 bg-slate-100 dark:bg-slate-900  flex items-center justify-center flex-col gap-y-8">
+    <div id="loading" class="w-full h-[100vh] absolute top-0 left-0  p-3 z-50 bg-slate-100 dark:bg-slate-900  flex items-center justify-center flex-col gap-y-8">
          <img id="image_elm" src="../assets/images/logo/Screenshot 2024-09-23 013110.png" class="rounded-xl shadow-xl dark:shadow-slate-700" alt="">
         <span class="loding loading--roro"></span>
       </div>
@@ -11,11 +11,14 @@ export default {
 }
 window.addEventListener('load' , () => {
   document.getElementById('loading').classList.add('hidden');
-  document.body.style.overflow = 'auto'
+  document.body.classList.add('!overflow-y-auto')
 })
 </script>
 
-<style scoped>
+<style>
+body {
+  overflow: hidden;
+}
 .loding{
     display: inline-block;
     width: 3.5rem;

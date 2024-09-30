@@ -1,0 +1,197 @@
+   <!-- main servecis -->
+          <div class="px-3 ipad:px-3 laptop:px-4">
+  <ol class="relative border-s border-primery">                  
+      <li class="mb-3 ms-4">
+          <div class="absolute w-3 h-3 bg-gray-200  rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-300"></div>    
+          <h3 class="text-xl tablet:text-2xl font-semibold tracking-wide text-primery font-Bebas flex items-center gap-x-2 dark:text-slate-200"><img src="../assets/images/iconImage/Group 36.png" class="w-7 h-10 object-cover" alt=""> Attractive and pleasant design</h3>
+          <p class="my-1  text-base laptop:text-lg font-normal text-slate-500 font-Roboto dark:text-slate-300">Having an attractive business plan that attracts people to you is your right and I guarantee it.</p>
+  
+      </li>
+      <li class="mb-3 ms-4">
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-300"></div>
+          <h3 class="text-xl tablet:text-2xl font-semibold text-primery flex items-center gap-x-2 font-Bebas tracking-wide dark:text-slate-200"><img src="../assets/images/iconImage/Folder.png" class="w-7 h-10 object-cover" alt=""> Readable and optimized coding</h3>
+          <p class="text-base laptop:text-lg font-normal my-1 text-slate-500 font-Roboto dark:text-slate-300">I have always put perfectionism in coding as one of my priorities, and in my opinion, the code structure should always be clean and have high performance.</p>
+      </li>
+      <li class="ms-4">
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-500 dark:bg-gray-300"></div>
+          <h3 class="text-xl tablet:text-2xl font-semibold text-primery font-Bebas flex tracking-wide items-center gap-x-2 dark:text-slate-200"><img src="../assets/images/iconImage/Group 28.png" class=" w-7 h-7" alt=""> Being responsible and punctual</h3>
+          <p class="text-base laptop:text-lg my-1 font-normal text-slate-500 font-Roboto dark:text-slate-300">Responsibility is a constant pillar that people must follow, but time is a relative thing, it is possible that the situation may not go according to plan, but I always do my best.</p>
+      </li>
+  </ol>
+          </div>
+
+
+
+
+                  <div class="dark:text-white text-primery flex items-center justify-center flex-col">
+                  <h6 class="font-Bebas text-2xl font-bold">Nationality , of my address</h6>
+                  <span class="font-Exo text-sm tracking-tighter">Iran, Khuzestan, Abadan city</span>
+                </div>
+
+
+
+
+                
+
+<div id="toast-simple" class="flex items-center w-full max-w-xs p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
+    <svg class="w-5 h-5 text-blue-600 dark:text-blue-500 rotate-45" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 17 8 2L9 1 1 19l8-2Zm0 0V9"/>
+    </svg>
+    <div class="ps-4 text-sm font-normal">Message sent successfully.</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="">
+                  <ul>
+                    <li class="mt-4" v-for="(project , index) in visibleItems" :key="index">
+                      <div class="w-full h-auto bg-white dark:bg-slate-950 px-5 py-5 rounded-md flex  items-center gap-y-3 laptop:gap-y-0 laptop:gap-x-3 flex-col-reverse laptop:flex-row">
+                        <div class="text-center laptop:text-left ">
+                          <h5 class="text-3xl text-blue-500 font-Bebas font-bold">{{ project.name }}</h5>
+                          <span class="flex items-center gap-x-1 inline-flex text-primery dark:text-slate-400 text-sm font-Bebas font-bold">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="w-4 h-4 text-blue-500">
+  <path d="M15 9.99981L11 13.9998L8.99995 11.9998M13.246 3.45879L14.467 4.49929C14.7746 4.76143 15.1566 4.91991 15.5594 4.95206L17.1585 5.0795C18.0986 5.15452 18.8453 5.9008 18.9204 6.84093L19.0475 8.44024C19.0797 8.8431 19.2387 9.22559 19.5008 9.53319L20.5409 10.7538C21.1526 11.4716 21.1527 12.5275 20.541 13.2454L19.5009 14.4662C19.2388 14.7738 19.08 15.1564 19.0478 15.5593L18.9199 17.1583C18.8449 18.0984 18.0993 18.8452 17.1591 18.9202L15.5595 19.0478C15.1567 19.08 14.7744 19.2381 14.4667 19.5002L13.246 20.5407C12.5282 21.1525 11.4717 21.1526 10.7539 20.5409L9.53316 19.5003C9.22555 19.2382 8.84325 19.0798 8.44038 19.0477L6.84077 18.9202C5.90064 18.8452 5.15505 18.0986 5.08003 17.1585L4.9521 15.5594C4.91995 15.1565 4.76111 14.7742 4.49898 14.4666L3.45894 13.2454C2.84721 12.5276 2.84693 11.472 3.45865 10.7542L4.49963 9.53301C4.76176 9.22541 4.91908 8.84311 4.95122 8.44024L5.07915 6.84112C5.15417 5.90099 5.90192 5.15442 6.84205 5.0794L8.43989 4.95196C8.84276 4.91981 9.22525 4.76146 9.53285 4.49932L10.754 3.45879C11.4718 2.84707 12.5282 2.84707 13.246 3.45879Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                             </svg>
+                            Personal project
+                          </span>
+                          <p class="max-w-[30rem] font-Bebas text-slate-500 dark:text-slate-300 my-1 mx-2">{{ project.aboutproject }}</p>
+                          <div class="flex flex-col font-Bebas font-bold text-primery">
+                            <a :href="project.linkonline" class="text-primery dark:text-slate-400 flex justify-center laptop:justify-start items-center gap-x-1">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="w-5 h-5 text-blue-500">
+  <path d="M6 7.5002V7.2002C6 6.08009 6 5.51962 6.21799 5.0918C6.40973 4.71547 6.71547 4.40973 7.0918 4.21799C7.51962 4 8.08009 4 9.2002 4H17.8002C18.9203 4 19.4796 4 19.9074 4.21799C20.2837 4.40973 20.5905 4.71547 20.7822 5.0918C21 5.5192 21 6.07899 21 7.19691V13.8031C21 14.921 21 15.48 20.7822 15.9074C20.5905 16.2837 20.2839 16.5905 19.9076 16.7822C19.4802 17 18.921 17 17.8031 17H10.5M3 16.8002V11.2002C3 10.0801 3 9.51962 3.21799 9.0918C3.40973 8.71547 3.71547 8.40973 4.0918 8.21799C4.51962 8 5.08009 8 6.2002 8H6.80019C7.9203 8 8.47957 8 8.9074 8.21799C9.28372 8.40973 9.59048 8.71547 9.78223 9.0918C10 9.5192 10 10.079 10 11.1969V16.8031C10 17.921 10 18.48 9.78223 18.9074C9.59048 19.2837 9.28372 19.5905 8.9074 19.7822C8.47999 20 7.921 20 6.80309 20H6.19691C5.07899 20 4.5192 20 4.0918 19.7822C3.71547 19.5905 3.40973 19.2837 3.21799 18.9074C3 18.4796 3 17.9203 3 16.8002Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+                              View the online project</a>
+                            <a :href="project.linkgithub" class="text-primery dark:text-slate-400 flex items-center justify-center laptop:justify-start gap-x-1">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="w-5 h-5 text-blue-500">
+  <path d="M18 12V17C18 18.6569 15.3137 20 12 20C8.68629 20 6 18.6569 6 17V12M18 12V7M18 12C18 13.6569 15.3137 15 12 15C8.68629 15 6 13.6569 6 12M18 7C18 5.34315 15.3137 4 12 4C8.68629 4 6 5.34315 6 7M18 7C18 8.65685 15.3137 10 12 10C8.68629 10 6 8.65685 6 7M6 12V7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  
+                              View the GitHub repository</a>
+                          </div>
+                      
+                        </div>
+                        <div class="w-[80%] mx-auto laptop:m-0 laptop:w-[128px] h-[128px] shadow-xl laptop:rounded-full">
+                           <img class="w-full h-full object-cover rounded-lg laptop:rounded-full" src="../assets/images/coverproject/1.webp" alt="project-cover"> 
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- btn add box -->
+                 <div class="mt-3 px-4">
+                  <button class="bg-blue-500 font-Bebas rounded-md py-2 px-5 text-white" v-if="hasmoreitems" @click="loadMore">ADD ALL PROJECTS</button>
+                 </div>
+                <!-- ------- finish btn box -->
+
+
+
+
+
+
+                      <div class="mt-3">
+                    <p class="child:text-blue-800 dark:child:text-blue-600 font-Bebas"><a href="https://github.com/poriyaASadi/MiniProjects" class=" text-xl">Several mini-projects in different languages</a> 😶‍🌫️ <a href="https://github.com/poriyaASadi/Single-festival-page" class=" text-xl">Single page site esey in html css js (local)</a> 😶‍🌫️ <a href="https://github.com/poriyaASadi/api-by-component" class=" text-xl">Component Javascript Api ... (local) mini project small</a> . . .</p>
+                  </div>
+
+
+                     <swiper class="h-auto p-3 "
+   :modules="modules"
+    :space-between="30"
+   :slides-per-view="auto"
+   :loop="true"
+   :autoplay="{ delay : 0 }"
+   :speed="6500"
+   :freemode="true"
+   :pagination="{ clickable: true }"
+   :scrollbar="{ draggable: true }"
+   @swiper="onSwiper"
+   @slideChange="onSlideChange"
+ >
+   <swiper-slide data-swiper-autoplay="0" v-for="(result  , index) in visibleItems" :key="index" class="!w-fit mx-3">
+    <div class="w-fit">
+      <div class="max-w-[25rem]  mx-auto bg-white shadow-md p-2 rounded-2xl">
+        <!-- image project box -->
+         <div class="w-full h-[11rem]">
+          <img :src="result.image" class="w-full h-full object-cover" style="border-radius:1rem 1rem 0 0;" alt="">
+         </div>
+         <!-- about project box -->
+          <div class="p-2">
+            <h3 class="font-Bebas text-4xl text-primery font-bold">{{result.name}}</h3>
+            <p class="font-Roboto text-primery">{{result.aboutproject}}</p>
+          </div>
+          <!-- btn links project box -->
+           <div class="flex items-center justify-start gap-x-2 p-2 flex-wrap child:shadow-md">
+            <!-- <div class="bg-yellow-500 w-fit px-3 py-2 rounded-md text-white font-Roboto">
+              <a href="#" class="text-sm inline-flex">Star Project</a>
+            </div> -->
+            <div class="bg-blue-500 text-white font-Roboto py-2 px-3 rounded-md">
+              <a :href="result.linkgithub" class="text-sm">Show Repositories</a>
+            </div>
+            <div class="bg-slate-100 text-black font-Roboto py-2 px-3 rounded-md">
+              <a :href="result.linkonline" class="text-sm">Show Online Project</a>
+            </div>
+           </div>
+      </div>
+    </div>
+   </swiper-slide>
+ </swiper>
+
+   // import Swiper core and required modules
+  import { Navigation, A11y , Autoplay } from 'swiper/modules';
+//  Pagination, Scrollbar,
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  // Import Swiper styles
+  import 'swiper/css';
+  import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import 'swiper/css/scrollbar';
+  import 'swiper/css/autoplay'
+
+
+      Swiper,
+    SwiperSlide,
+
+
+
+      setup() {
+      const onSwiper = (swiper) => {
+        console.log(swiper);
+      };
+      const onSlideChange = () => {
+        console.log('slide change');
+      };
+      return {
+        onSwiper,
+        onSlideChange,
+        modules: [Navigation, A11y , Autoplay],
+      };
+    },
+
+
+
+
+                  <ul class="w-full flex items-center justify-center my-5 overflow-x-auto gap-x-5 " id="scrol_repo">
+                    <li>
+                      <div class="w-[22rem] h-[11rem] bg-white dark:bg-slate-800 shadow-md rounded-lg p-2 px-3">
+                        <div class="flex items-center gap-x-2 mt-1">
+                          <img src="../assets/images/coverproject/1.webp" class="w-14 h-14 rounded-full" alt="">
+                          <h6 class="font-Roboto text-2xl tracking-tight dark:text-zinc-200 font-extrabold">Lorem ipsum dolor sit.</h6>
+                        </div>
+                        <div class="font-Roboto">
+                          <p class="py-3 text-sm dark:text-zinc-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, adipisci.</p>
+                          <a href="#" class="bg-primery dark:bg-zinc-200 dark:text-zinc-900 font-bold rounded-md text-white px-3 py-2">Show Repository</a>
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>

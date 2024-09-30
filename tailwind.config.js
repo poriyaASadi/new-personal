@@ -25,13 +25,14 @@ module.exports = {
       screens : {
         "tablet" : '480px',
         "ipad" : '768px',
-        "laptop" : '1024px',
+        "laptop" : '900px',
         "desktop" : "2024px"
       },
       fontFamily:  {
         Caveat : ['Caveat'],
         Bebas : ['Bebas'],
-        Exo : ["Exo"]
+        Exo : ["Exo"],
+        Roboto : ["Roboto"]
       }
     },
     plugins: [
