@@ -1,4 +1,11 @@
 const resultProjects  =  [
+        {
+        name : 'SICHECK.IR' , 
+        linkgithub : 'https://github.com/poriyaAsadi/' ,
+         linkonline : 'https://new.sicheck.ir/home' ,
+         image : 'https://i.postimg.cc/NM8L6Jff/Thumbnail.jpg',
+         aboutproject : 'The Cicek website, which operates in the field of digital currency, is a personal and corporate website.'
+        },
     {
     name : 'INSTAGRAM' , 
     linkgithub : 'https://github.com/poriyaAsadi/instagram' ,
@@ -9,7 +16,7 @@ const resultProjects  =  [
     {
     name : 'PANEL.ADMIN' , 
     linkgithub : 'https://github.com/poriyaAsadi/Single-festival-page' ,
-     linkonline : 'https://poriyaasadi.github.io/Single-festival-page' ,
+     linkonline : 'https://poriyaasadi.github.io/panelAdmin_1/' ,
      image : "https://i.postimg.cc/x16KvV4D/Screenshot-2024-09-28-011440.png",
      aboutproject : 'This admin panel project is derived from the design of one of the projects of the sabzlearn.ir site, which I personally developed as a student of this course.'
     },
