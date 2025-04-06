@@ -115,6 +115,11 @@
                     <li><img src="../assets/images/icons/icons (14).svg" alt=""></li>
                     <li><img src="../assets/images/icons/icons (19).svg" alt=""></li>
                     <li><img src="../assets/images/icons/icons (21).svg" alt=""></li>
+                    <li><img src="../assets/images/icons/vue (1).svg" alt=""></li>
+                    <li><img src="../assets/images/icons/svelte (1).svg" alt=""></li>
+                    <li><img src="../assets/images/icons/react.svg" alt=""></li>
+                    <li><img src="../assets/images/icons/pinia (1).svg" alt=""></li>
+                    <li><img src="../assets/images/icons/nuxt (1).svg" alt=""></li>
                   </ul>
                 </div>
               <div class="laptop:flex laptop:mt-5 items-start  laptop:gap-x-2    justify-start w-full">
@@ -256,7 +261,22 @@
                        </div>
                      </div>
                    </li>
-
+                   <li>
+                    <div class="flex items-center   flex-wrap gap-x-10 gap-y-3 p-3 rounded-md bg-white dark:bg-slate-800 w-fit">
+                      <div class="flex items-center flex-wrap gap-x-2 font-Roboto ">
+                        <a href="https://github.com/poriyaASadi/Exchange-site"><h6 class="text-2xl !text-blue-500">Exchange-site</h6></a>
+                        <span class="text-sm bg-slate-100 dark:bg-slate-900 rounded-full py-1 dark:text-zinc-400 px-3">Public</span>
+                      </div>
+                      <div class="px-2 cursor-pointer py-1 border-2 rounded-md w-fit dark:border-zinc-400">
+                        <a href="https://github.com/poriyaASadi/Exchange-site" class="flex items-center gap-x-2 dark:text-zinc-200 font-Roboto">
+                          Start Project
+                          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="">
+                            <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="yellow"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
                  </ul>
 
               <p class="font-Roboto font-semibold child:px-1 text-lg dark:text-slate-200 text-center">Exmple : <span class="text-green-500">Vue.js</span><span class="text-yellow-500">Javascript</span><span class="text-green-500">Node.js</span><span class="text-purple-500">Scss . XD</span><span class="text-blue-600">Tailwind.css</span><span class="text-orange-500">Html</span> . . .</p>
